@@ -1,0 +1,395 @@
+{
+  "cache_version": 1,
+  "payload_version": "v2",
+  "hero_cn": "猎空",
+  "hero_en": "Tracer",
+  "page_title": "Tracer",
+  "page_hash": "56827b11af0a1bc8713f15ecff4e7890b57284695f0302bf03981eff60720830",
+  "payload": {
+    "hero_cn": "猎空",
+    "hero_en": "Tracer",
+    "role": "damage",
+    "role_cn": "输出",
+    "overview": "前守望先锋成员“猎空”是一位可以进行时间跳跃的\n冒险家，为了正义而不懈努力着",
+    "stats": {
+      "health": 175,
+      "armor": 0,
+      "shield": 0,
+      "total_hp": 175,
+      "health_6v6": 0,
+      "armor_6v6": 0,
+      "shield_6v6": 0,
+      "total_hp_6v6": 0,
+      "minor_perk_xp": 1575,
+      "major_perk_xp": 3995,
+      "preset_bonus_hp": 0,
+      "preset_mode_total_hp": 175
+    },
+    "abilities": [
+      {
+        "name": "脉冲双枪",
+        "name_cn": "脉冲双枪",
+        "name_en": "Pulse Pistols",
+        "description": "近距离全自动武器",
+        "description_en": "Short-range automatic weapons.",
+        "key": "",
+        "key_cn": "",
+        "category": "weapon",
+        "category_cn": "武器",
+        "group_title": "Weapons",
+        "group_title_cn": "武器",
+        "accent": [
+          255,
+          162,
+          88
+        ],
+        "stats": [
+          {
+            "label": "伤害",
+            "value": "5.75 - 1.725 (per bullet) / 11.5 - 3.45 ( / 次射击)"
+          },
+          {
+            "label": "射速",
+            "value": "20 shots / s"
+          },
+          {
+            "label": "弹药",
+            "value": "40"
+          },
+          {
+            "label": "耗弹",
+            "value": "2"
+          },
+          {
+            "label": "装弹",
+            "value": "1 秒"
+          },
+          {
+            "label": "弹丸",
+            "value": "2"
+          },
+          {
+            "label": "弹体半径",
+            "value": "0.04 米"
+          },
+          {
+            "label": "扩散",
+            "value": "3.5 degrees (max)"
+          },
+          {
+            "label": "攻击类型",
+            "value": "即时命中"
+          },
+          {
+            "label": "DPS",
+            "value": "230 while firing (120 overall w / reload)"
+          }
+        ],
+        "tags": [
+          "暴击",
+          "即时命中"
+        ],
+        "notes": [
+          "~0.22 秒 recovery if firing is paused.",
+          "Maximum spread is reached after 3 shots.",
+          "Ammo increased from 40 to 60.",
+          "输出 reduced from 5.5 to 5."
+        ],
+        "mode_notes": []
+      },
+      {
+        "name": "闪现",
+        "name_cn": "闪现",
+        "name_en": "Blink",
+        "description": "传送至移动方向",
+        "description_en": "Teleport in the direction you are moving.",
+        "key": "ability 1",
+        "key_cn": "技能 1",
+        "category": "ability",
+        "category_cn": "技能",
+        "group_title": "Special Abilities",
+        "group_title_cn": "技能",
+        "accent": [
+          96,
+          191,
+          255
+        ],
+        "stats": [
+          {
+            "label": "冷却",
+            "value": "3 秒"
+          },
+          {
+            "label": "持续",
+            "value": "0.1 秒 recovery for reuse"
+          },
+          {
+            "label": "范围",
+            "value": "7.5 米"
+          },
+          {
+            "label": "攻击类型",
+            "value": "movement"
+          },
+          {
+            "label": "充能次数",
+            "value": "3"
+          }
+        ],
+        "tags": [
+          "机动",
+          "strong movement"
+        ],
+        "notes": [
+          "Blink instantly moves Tracer to target location.",
+          "Tracer will not be caught by Junkrat's Steel Trap if she attempts to Blink over it, but cannot Blink out of one that she has already triggered.",
+          "Blink will not remove debuffs.",
+          "Can also be activated with 副攻击."
+        ],
+        "mode_notes": []
+      },
+      {
+        "name": "闪回",
+        "name_cn": "闪回",
+        "name_en": "Recall",
+        "description": "回到传送前的位置并恢复至当时的生命值",
+        "description_en": "Travel back in time to your previous location and health.",
+        "key": "ability 2",
+        "key_cn": "技能 2",
+        "category": "ability",
+        "category_cn": "技能",
+        "group_title": "Special Abilities",
+        "group_title_cn": "技能",
+        "accent": [
+          96,
+          191,
+          255
+        ],
+        "stats": [
+          {
+            "label": "冷却",
+            "value": "13 秒"
+          },
+          {
+            "label": "持续",
+            "value": "3 秒 (rewound time) / 0.9 秒 (invulnerablity)"
+          },
+          {
+            "label": "攻击类型",
+            "value": "movement"
+          }
+        ],
+        "tags": [
+          "lesser cleanse",
+          "stunnable",
+          "无敌",
+          "相位",
+          "reloads",
+          "strong movement"
+        ],
+        "notes": [
+          "Also fully reloads Tracer's Pulse Pistols.",
+          "Restores Tracer's health to the highest value in the past 3 秒.",
+          "Recall does not restore overhealth, but any overhealth Tracer currently has will persist for its normal duration through Recall.",
+          "If Recalling to a position on a platform (or the payload) that has moved during the last few seconds, Tracer will not be Recalled to a position in the air, but instead she will be returned to the platform's current location.",
+          "Recall also records where Tracer was looking three seconds prior.",
+          "Tracer is 相位 out while Recalling, removing most negative status effects and making her immune to all 输出."
+        ],
+        "mode_notes": []
+      },
+      {
+        "name": "脉冲炸弹",
+        "name_cn": "脉冲炸弹",
+        "name_en": "Pulse Bomb",
+        "description": "扔出一枚威力巨大的\n粘性炸弹",
+        "description_en": "Throw out a powerful sticky explosive.",
+        "key": "",
+        "key_cn": "",
+        "category": "ultimate",
+        "category_cn": "终极技能",
+        "group_title": "Ultimate Ability",
+        "group_title_cn": "终极技能",
+        "accent": [
+          255,
+          208,
+          92
+        ],
+        "stats": [
+          {
+            "label": "伤害",
+            "value": "5 (stick) / 350 - 70 (explosion, enemy) / 175 - 35 (explosion, self)"
+          },
+          {
+            "label": "持续",
+            "value": "1 秒 (explosion delay)"
+          },
+          {
+            "label": "充能",
+            "value": "1375 点"
+          },
+          {
+            "label": "半径",
+            "value": "2 - 4 米 (falloff start - max)"
+          },
+          {
+            "label": "飞行速度",
+            "value": "15 m / s"
+          },
+          {
+            "label": "弹体半径",
+            "value": "0.22 米"
+          },
+          {
+            "label": "攻击类型",
+            "value": "抛物线 / 范围"
+          },
+          {
+            "label": "施放",
+            "value": "0.144 秒 for throw + 0.192 秒 recovery"
+          }
+        ],
+        "tags": [
+          "部分无视矩阵吸收",
+          "部分无法反弹",
+          "部分无视矩阵加成",
+          "area of effect",
+          "球形",
+          "sticky",
+          "飞行时间",
+          "self-输出"
+        ],
+        "notes": [
+          "Tracer's Pulse Bomb does 输出 when stuck to someone and when it explodes.",
+          "The 投射物 can be destroyed while in air by Defense Matrix, Kinetic Grasp, Javelin Spin, Power Matrix and Kekkai Sanctuary and reflected by Deflect, but a stuck bomb and the explosion are unaffected.",
+          "Amplification Matrix affects all 输出 dealt, if the 投射物 passes through it. Splash 输出 alone going through is not amplified.",
+          "Stick and explosion are separate 输出 instances, causing both to get reduced by armor.",
+          "Explosion 输出 increased from 350 to 550."
+        ],
+        "mode_notes": []
+      }
+    ],
+    "perks": [
+      {
+        "name": "闪现急救包",
+        "name_cn": "闪现急救包",
+        "name_en": "Chronal Dash",
+        "description": "急救包会为闪现恢复1次充能",
+        "description_en": "Blink distance increased by 20%.",
+        "key": "",
+        "key_cn": "",
+        "category": "perk",
+        "category_cn": "威能",
+        "group_title": "Minor Perks",
+        "group_title_cn": "次级威能",
+        "accent": [
+          117,
+          223,
+          174
+        ],
+        "stats": [
+          {
+            "label": "范围",
+            "value": "7.5 → 9 米"
+          }
+        ],
+        "tags": [],
+        "notes": [],
+        "mode_notes": []
+      },
+      {
+        "name": "动能装填",
+        "name_cn": "动能装填",
+        "name_en": "Kinetic Reload",
+        "description": "近身攻击命中可获得20发弹药",
+        "description_en": "Melee hits grant 20 ammo.",
+        "key": "",
+        "key_cn": "",
+        "category": "perk",
+        "category_cn": "威能",
+        "group_title": "Minor Perks",
+        "group_title_cn": "次级威能",
+        "accent": [
+          117,
+          223,
+          174
+        ],
+        "stats": [],
+        "tags": [],
+        "notes": [
+          "Triggers for each enemy hero hit by the quick 近战."
+        ],
+        "mode_notes": []
+      },
+      {
+        "name": "飞速闪回",
+        "name_cn": "飞速闪回",
+        "name_en": "Blink Packs",
+        "description": "闪回会使闪现的恢复速度加快150%，持续3秒",
+        "description_en": "Health Packs restore 1 Blink charge.",
+        "key": "",
+        "key_cn": "",
+        "category": "perk",
+        "category_cn": "威能",
+        "group_title": "Major perks",
+        "group_title_cn": "主要威能",
+        "accent": [
+          255,
+          158,
+          198
+        ],
+        "stats": [],
+        "tags": [],
+        "notes": [],
+        "mode_notes": []
+      },
+      {
+        "name": "量子纠缠",
+        "name_cn": "量子纠缠",
+        "name_en": "Quantum Entanglement",
+        "description": "闪回提供会持续衰减的50点过量生命值和20发弹药",
+        "description_en": "Recall grants 50 overhealth and 20 ammo that decays over time.",
+        "key": "",
+        "key_cn": "",
+        "category": "perk",
+        "category_cn": "威能",
+        "group_title": "Major perks",
+        "group_title_cn": "主要威能",
+        "accent": [
+          255,
+          158,
+          198
+        ],
+        "stats": [
+          {
+            "label": "持续",
+            "value": "6 秒"
+          },
+          {
+            "label": "额外生命",
+            "value": "50"
+          }
+        ],
+        "tags": [],
+        "notes": [],
+        "mode_notes": []
+      }
+    ],
+    "source": {
+      "fandom_page_title": "Tracer",
+      "fandom_page_id": "346",
+      "fandom_url": "https://overwatch.fandom.com/wiki/Tracer",
+      "image_url": "https://static.wikia.nocookie.net/overwatch_gamepedia/images/6/63/OW2_Tracer.png/revision/latest/scale-to-width-down/422?cb=20241102134907"
+    },
+    "accent_color": [
+      222,
+      122,
+      0
+    ],
+    "icon_url": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5ee20a1feed14da5153f19745328e9fc02bd79f8109593a9b7dab9283eb9629b.png",
+    "image_url": "https://static.wikia.nocookie.net/overwatch_gamepedia/images/6/63/OW2_Tracer.png/revision/latest/scale-to-width-down/422?cb=20241102134907",
+    "_page_hash": "56827b11af0a1bc8713f15ecff4e7890b57284695f0302bf03981eff60720830"
+  },
+  "created_at": 1780547032.5112574,
+  "validated_at": 1780547032.5112574,
+  "expires_at": 1780633432.5112574
+}

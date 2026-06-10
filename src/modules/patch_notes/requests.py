@@ -990,7 +990,11 @@ class PatchNotesRequests:
             seen.add(normalized)
             normalized_urls.append(normalized)
 
-        asset_dir.mkdir(parents=True, exist_ok=True)
+        try:
+            asset_dir.mkdir(parents=True, exist_ok=True)
+        except OSError as exc:
+            print(f"[overstats] patch_notes asset directory {asset_dir} is not writable: {type(exc).__name__}: {exc}")
+            return {}
         if not normalized_urls:
             return {}
 
@@ -1029,14 +1033,18 @@ class PatchNotesRequests:
         if not content:
             return None
 
-        fd, temp_path = tempfile.mkstemp(prefix="patch-notes-image.", suffix=suffix, dir=str(asset_dir))
         try:
-            with os.fdopen(fd, "wb") as file:
-                file.write(content)
-            Path(temp_path).replace(target_path)
-        finally:
+            fd, temp_path = tempfile.mkstemp(prefix="patch-notes-image.", suffix=suffix, dir=str(asset_dir))
             try:
-                Path(temp_path).unlink(missing_ok=True)
-            except OSError:
-                pass
+                with os.fdopen(fd, "wb") as file:
+                    file.write(content)
+                Path(temp_path).replace(target_path)
+            finally:
+                try:
+                    Path(temp_path).unlink(missing_ok=True)
+                except OSError:
+                    pass
+        except OSError as exc:
+            print(f"[overstats] patch_notes image save failed for {normalized}: {type(exc).__name__}: {exc}")
+            return None
         return target_path

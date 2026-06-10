@@ -197,13 +197,29 @@ class PatchNotesModule:
                 status_code=500,
             ) from exc
 
+    def _ensure_cache_dir(self) -> None:
+        """Create the cache root directory, ignoring permission errors.
+
+        Cache is an optimisation — if we cannot create the directory the
+        API still returns correct data; it just cannot persist rendered
+        images across restarts.
+        """
+        try:
+            self.cache_root.mkdir(parents=True, exist_ok=True)
+        except OSError as exc:
+            print(f"[overstats] patch_notes cache directory {self.cache_root} is not writable: {type(exc).__name__}: {exc}")
+
     def _cache_paths(self, cache_key: str) -> tuple[Path, Path]:
-        self.cache_root.mkdir(parents=True, exist_ok=True)
+        self._ensure_cache_dir()
         base_path = self.cache_root / cache_key
         return base_path.with_suffix(".json"), base_path.with_suffix(".png")
 
     def _load_cached_patch_bundle(self, cache_key: str) -> Optional[Dict[str, Any]]:
-        metadata_path, image_path = self._cache_paths(cache_key)
+        try:
+            metadata_path, image_path = self._cache_paths(cache_key)
+        except OSError as exc:
+            print(f"[overstats] patch_notes cache path unavailable, skipping cache read: {type(exc).__name__}: {exc}")
+            return None
         if not metadata_path.exists() or not image_path.exists():
             return None
         try:
@@ -229,7 +245,11 @@ class PatchNotesModule:
         *,
         translated: bool,
     ) -> None:
-        metadata_path, image_path = self._cache_paths(cache_key)
+        try:
+            metadata_path, image_path = self._cache_paths(cache_key)
+        except OSError as exc:
+            print(f"[overstats] patch_notes cache path unavailable, skipping cache write: {type(exc).__name__}: {exc}")
+            return
         payload = {
             "cache_version": PATCH_TRANSLATION_CACHE_VERSION,
             "translated": bool(translated),
@@ -237,8 +257,15 @@ class PatchNotesModule:
             "candidate": serialize_patch_candidate(candidate),
             "saved_at": self._format_generated_at(self.time_provider()),
         }
-        self._write_json_atomic(metadata_path, payload)
-        self._write_bytes_atomic(image_path, image_bytes)
+        try:
+            self._write_json_atomic(metadata_path, payload)
+        except OSError as exc:
+            print(f"[overstats] patch_notes cache metadata write failed, skipping cache: {type(exc).__name__}: {exc}")
+            return
+        try:
+            self._write_bytes_atomic(image_path, image_bytes)
+        except OSError as exc:
+            print(f"[overstats] patch_notes cache image write failed: {type(exc).__name__}: {exc}")
 
     def _collect_asset_urls(self, candidate: Mapping[str, Any]) -> list[str]:
         urls = []

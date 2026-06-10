@@ -1,0 +1,17 @@
+services:
+  overstats:
+    build: .
+    container_name: overstats
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:18080:18080"
+    env_file:
+      - .env
+    volumes:
+      # 持久化 SQLite 数据库文件
+      - ./persist/db:/opt/overstats/src/db
+      # 持久化缓存（重启不丢失）
+      - ./persist/cache:/opt/overstats/cache
+    environment:
+      - OVERSTATS_API_HOST=0.0.0.0
+      - OVERSTATS_API_PORT=18080

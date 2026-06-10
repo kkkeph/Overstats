@@ -841,6 +841,7 @@ class DashenMatchModule:
             return {"fallback_text": "AI锐评未配置 ANALYSIS_BASE_URL / ANALYSIS_API_KEY。"}
 
         model = _analysis_model_for_base_url(base_url)
+        print(prompt)
         try:
             raw = await self._call_openai_compatible(
                 self._chat_completion_url(base_url),

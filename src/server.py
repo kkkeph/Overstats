@@ -10,6 +10,17 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 from typing import Dict, Iterable, List, Optional, TypeVar
 
+import os as _os
+import sys as _sys
+
+# 确保仓库根目录的父目录在 sys.path 上，使得 `overstats` 包可被发现。
+# server.py 可能在 run.py 之前被独立加载（如 IDE / 测试），这里做防御性补丁。
+_repo_src = _os.path.dirname(_os.path.abspath(__file__))
+_repo_root = _os.path.dirname(_repo_src)       # Overstats/
+_repo_parent = _os.path.dirname(_repo_root)    # 父目录
+if _repo_parent not in _sys.path:
+    _sys.path.insert(0, _repo_parent)
+
 try:
     from overstats.config import APIConfig
     from overstats.src.client.apiclient import dashen_api_client
@@ -1735,6 +1746,7 @@ def create_server(config: APIConfig) -> ThreadingHTTPServer:
 
         def do_GET(self) -> None:
             path = self._request_path()
+            self._log_request("GET")
             self._set_metrics_context(path if path.startswith("/api/v2/") else None)
             if path == "/healthz":
                 self._send_json(
@@ -3957,6 +3969,19 @@ def create_server(config: APIConfig) -> ThreadingHTTPServer:
         def log_message(self, format: str, *args: object) -> None:
             return
 
+        def _log_request(self, method: str, payload: Optional[Dict[str, object]] = None) -> None:
+            from urllib.parse import urlparse, parse_qsl
+            raw_path = self.path or "/"
+            parsed = urlparse(raw_path)
+            path = parsed.path
+            if method == "GET" and parsed.query:
+                params = dict(parse_qsl(parsed.query))
+                print(f"[overstats] request {method} {path} params={json.dumps(params, ensure_ascii=False)}")
+            elif payload is not None:
+                print(f"[overstats] request {method} {path} payload={json.dumps(payload, ensure_ascii=False)}")
+            else:
+                print(f"[overstats] request {method} {path}")
+
         def _set_metrics_context(self, url: Optional[str]) -> None:
             if not config.enable_database_write:
                 self._request_metrics_url = None
@@ -4002,6 +4027,7 @@ def create_server(config: APIConfig) -> ThreadingHTTPServer:
                 raise ValueError(f"malformed json body: {exc.msg}") from exc
             if not isinstance(data, dict):
                 raise ValueError("json body must be an object")
+            self._log_request("POST", data)
             return data
 
         def _decode_body(self, raw_body: bytes) -> str:

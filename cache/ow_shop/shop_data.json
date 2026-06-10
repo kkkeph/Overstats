@@ -1,0 +1,893 @@
+{
+  "generated_at": "2026-06-05 20:39:08",
+  "cached_at": 1780663148.4628446,
+  "cache_ttl_seconds": 900,
+  "sections": [
+    {
+      "title": "精选商品",
+      "expires_text": "4天5小时35分",
+      "item_count": 38,
+      "items": [
+        {
+          "title": "天启战士超级礼包",
+          "description": "传奇 | 礼包（12件物品）",
+          "product_ids": [
+            2069475,
+            2069587,
+            2069455,
+            2069457,
+            2069566,
+            2069470,
+            2066996,
+            2066998,
+            2069620,
+            2069453,
+            2067004,
+            2069632
+          ],
+          "price_raw": 5900,
+          "price_currency": "XWC",
+          "price_discount_percentage": 46,
+          "image_url": "https://catalog.blzstatic.cn/1a/b626b305db0d110ff98e0a4d7468e35c-Web_1920x1080_S22M_ApocalypseWarriorsMegaBundle.png"
+        },
+        {
+          "title": "天启战士",
+          "description": "传奇 | 皮肤 | 莱因哈特",
+          "product_ids": [
+            2066998
+          ],
+          "price_raw": 1900,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/60/5b769376e04f3667740233326e934542-Web_1920x1080_S22M_ApocalypseWarriorsReinhardt.png"
+        },
+        {
+          "title": "天启战士",
+          "description": "传奇 | 皮肤 | 拉玛刹",
+          "product_ids": [
+            2066996
+          ],
+          "price_raw": 1900,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/fbd/32ae67d60902e26546800b19c8a55de2-Web_1920x1080_S22M_ApocalypseWarriorsRamattra.png"
+        },
+        {
+          "title": "天启战士",
+          "description": "传奇 | 皮肤 | 安娜",
+          "product_ids": [
+            2069632
+          ],
+          "price_raw": 1900,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/f91/0936c5c99ba4092fc1acacb50c2433ee-Web_1920x1080_S22M_ApocalypseWarriorsAna.png"
+        },
+        {
+          "title": "天启战士",
+          "description": "传奇 | 皮肤 | Venture",
+          "product_ids": [
+            2069620
+          ],
+          "price_raw": 1900,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/41/d1bea77aadb04b0cbd6d39e229e377a0-Web_1920x1080_S22M_ApocalypseWarriorsVenture.png"
+        },
+        {
+          "title": "天启战士",
+          "description": "传奇 | 皮肤 | 埃姆雷",
+          "product_ids": [
+            2067004
+          ],
+          "price_raw": 1900,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/ffc/2946a40ebe8b0a5c33792b7cf46f40e4-Web_1920x1080_S22M_ApocalypseWarriorsEmre.png"
+        },
+        {
+          "title": "霓虹脉冲超级礼包",
+          "description": "传奇 | 礼包（27件物品）",
+          "product_ids": [
+            1968942,
+            1968950,
+            1968949,
+            1968944,
+            1968943,
+            1968984,
+            1968983,
+            1968978,
+            1968977,
+            1968996,
+            1968995,
+            1968994,
+            1968985,
+            1969022,
+            1969020,
+            1969009,
+            1969006,
+            1969057,
+            1969047,
+            1969036,
+            1969035,
+            1985195,
+            1985187,
+            1985186,
+            1969058,
+            1985188,
+            1985196
+          ],
+          "price_raw": 5900,
+          "price_currency": "XWC",
+          "price_discount_percentage": 62,
+          "image_url": "https://catalog.blzstatic.cn/ffe/c39c9c09b9e2598435a8aaf009e65cc9-S18_Music_Festival_MegaBundle_Web.png"
+        },
+        {
+          "title": "霓虹脉冲“天使”礼包",
+          "description": "传奇 | 礼包（5件物品）",
+          "product_ids": [
+            1969057,
+            1969020,
+            1968985,
+            1968977,
+            1985195
+          ],
+          "price_raw": 2800,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/f8c/b5e7e585295713eb67235c67bbd7ad60-S18_Music_Festival_Mercy_Web.png"
+        },
+        {
+          "title": "霓虹脉冲朱诺礼包",
+          "description": "传奇 | 礼包（5件物品）",
+          "product_ids": [
+            1985188,
+            1969058,
+            1968996,
+            1968984,
+            1968978
+          ],
+          "price_raw": 2800,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/ff0/6abfd5ed94d2fc2cdab845233b70ba24-S18_Music_Festival_Juno_Web.png"
+        },
+        {
+          "title": "霓虹脉冲艾什礼包",
+          "description": "传奇 | 礼包（6件物品）",
+          "product_ids": [
+            1969006,
+            1968995,
+            1968950,
+            1968942,
+            1985196,
+            1969047
+          ],
+          "price_raw": 2800,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/56/1b54ffb2d4de0bd5b0c3ff648d390488-S18_Music_Festival_Ashe_Web.png"
+        },
+        {
+          "title": "霓虹脉冲“法老之鹰”礼包",
+          "description": "传奇 | 礼包（5件物品）",
+          "product_ids": [
+            1968944,
+            1985187,
+            1969036,
+            1969022,
+            1968949
+          ],
+          "price_raw": 2800,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/fd5/cfd0d07b4f4217aba73d2e04e28e26d8-S18_Music_Festival_Pharah_Web.png"
+        },
+        {
+          "title": "霓虹脉冲“黑影”礼包",
+          "description": "传奇 | 礼包（6件物品）",
+          "product_ids": [
+            1985186,
+            1969035,
+            1969009,
+            1968994,
+            1968983,
+            1968943
+          ],
+          "price_raw": 2800,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/3e/c604d3b89c7ab5f0cd6eebbd88e30113-S18_Music_Festival_Sombra_Web.png"
+        },
+        {
+          "title": "街头时尚超级礼包",
+          "description": "传奇 | 礼包（16件物品）",
+          "product_ids": [
+            1967740,
+            1966678,
+            1966674,
+            1966671,
+            1966762,
+            1966761,
+            1966724,
+            1966689,
+            1967071,
+            1967752,
+            1967069,
+            1967047,
+            1967289,
+            1967279,
+            1967278,
+            1967753
+          ],
+          "price_raw": 4500,
+          "price_currency": "XWC",
+          "price_discount_percentage": 57,
+          "image_url": "https://catalog.blzstatic.cn/4e/f31df2632860c5b093c2e5b31662453e-S18_Neo_Streetwear_MegaBundle_Web.png"
+        },
+        {
+          "title": "街头时尚弗蕾娅礼包",
+          "description": "传奇 | 礼包（4件物品）",
+          "product_ids": [
+            1967279,
+            1967071,
+            1966762,
+            1966678
+          ],
+          "price_raw": 2800,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/c/a8a3cb73b87ae622a4d8edd59cfcbbc8-S18_Neo_Streetwear_Freja_Web.png"
+        },
+        {
+          "title": "街头时尚“死神”礼包",
+          "description": "传奇 | 礼包（3件物品）",
+          "product_ids": [
+            1966674,
+            1967069,
+            1966761
+          ],
+          "price_raw": 2300,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/29/f86f9e9021f2d1520f4338613df0c7ec-S18_Neo_Streetwear_Reaper_Web.png"
+        },
+        {
+          "title": "街头时尚“黑影”礼包",
+          "description": "传奇 | 礼包（4件物品）",
+          "product_ids": [
+            1967047,
+            1966724,
+            1966671,
+            1967289
+          ],
+          "price_raw": 2300,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/fcd/570521b1d02bf7d788f485ff0303a485-S18_Neo_Streetwear_Sombra_Web.png"
+        },
+        {
+          "title": "街头时尚“骇灾”礼包",
+          "description": "传奇 | 礼包（5件物品）",
+          "product_ids": [
+            1967740,
+            1967278,
+            1967753,
+            1967752,
+            1966689
+          ],
+          "price_raw": 2300,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/f98/c5287ef2c1256a32c30a44d2197f5a0d-S18_Neo_Streetwear_Hazard_Web.png"
+        },
+        {
+          "title": "手工装甲礼包",
+          "description": "传奇 | 礼包（2件物品）",
+          "product_ids": [
+            2069618,
+            2069622
+          ],
+          "price_raw": 3200,
+          "price_currency": "XWC",
+          "price_discount_percentage": 15,
+          "image_url": "https://catalog.blzstatic.cn/0/d1f258d6b6aaf77006190e9d86c0a40d-Web_1920x1080_S22_CardboardRecolorBundle.png"
+        },
+        {
+          "title": "手工装甲",
+          "description": "传奇 | 皮肤 | D.Va",
+          "product_ids": [
+            2069622
+          ],
+          "price_raw": 1900,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/fca/7501a5d4eefd55a0ebf4141351105ded-Web_1920x1080_S22_CardboardRecolorDVA.png"
+        },
+        {
+          "title": "手工装甲",
+          "description": "传奇 | 皮肤 | 布丽吉塔",
+          "product_ids": [
+            2069618
+          ],
+          "price_raw": 1900,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/ff5/63a9f9a8a5c1291cf7eb405beff221f4-Web_1920x1080_S22_CardboardRecolorBrigitte.png"
+        },
+        {
+          "title": "守望先锋世界杯 - 美洲支持者礼包",
+          "description": "传奇 | 礼包（9件物品）",
+          "product_ids": [
+            2077448,
+            2077447,
+            2077440,
+            2073361,
+            2081180,
+            2077439,
+            2073411,
+            2073357,
+            2075210
+          ],
+          "price_raw": 3000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 51,
+          "image_url": "https://catalog.blzstatic.cn/fee/50f315300832633233e804a7eed4351c-Web_1920x1080_S22M_OWWC_AMER_MegaBundle.png"
+        },
+        {
+          "title": "守望先锋世界杯美洲赛区",
+          "description": "史诗 | 皮肤 | 艾什",
+          "product_ids": [
+            2077440
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/f9e/6f98db3bd065d16e9cefee516330bd31-Web_1920x1080_S22M_OWWC_AMER_Ashe.png"
+        },
+        {
+          "title": "守望先锋世界杯美洲赛区",
+          "description": "史诗 | 皮肤 | 卡西迪",
+          "product_ids": [
+            2077439
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/d/a9bcfb7fbb43458c818cb943388cb62f-Web_1920x1080_S22M_OWWC_AMER_Cassidy.png"
+        },
+        {
+          "title": "守望先锋世界杯美洲赛区",
+          "description": "史诗 | 皮肤 | 黑影",
+          "product_ids": [
+            2077448
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/17/9fa68b00500baced1adbd7b972911ae8-Web_1920x1080_S22M_OWWC_AMER_Sombra.png"
+        },
+        {
+          "title": "守望先锋世界杯美洲赛区",
+          "description": "史诗 | 皮肤 | Sierra",
+          "product_ids": [
+            2081180
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/f88/16d03dccb935354a30c2201a3c0c0fe6-Web_1920x1080_S22M_OWWC_AMER_Sierra.png"
+        },
+        {
+          "title": "守望先锋世界杯美洲赛区",
+          "description": "史诗 | 皮肤 | 士兵：76",
+          "product_ids": [
+            2077447
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/6/16ac967ce5ab5a4581d41659c09f7c94-Web_1920x1080_S22M_OWWC_AMER_76.png"
+        },
+        {
+          "title": "守望先锋世界杯 - 欧中非支持者礼包",
+          "description": "传奇 | 礼包（9件物品）",
+          "product_ids": [
+            2077451,
+            2077450,
+            2073406,
+            2075208,
+            2073348,
+            2077438,
+            2077443,
+            2077446,
+            2073386
+          ],
+          "price_raw": 3000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 51,
+          "image_url": "https://catalog.blzstatic.cn/48/9e4c529cfb6f0cbde3889f6fa1b76ed2-Web_1920x1080_S22M_OWWC_EMEA_MegaBundle.png"
+        },
+        {
+          "title": "守望先锋世界杯欧中非赛区",
+          "description": "史诗 | 皮肤 | 黑百合",
+          "product_ids": [
+            2077451
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/28/b11b784871b7e1bdb8aa19ee343c8f59-Web_1920x1080_S22M_OWWC_EMEA_Widowmaker.png"
+        },
+        {
+          "title": "守望先锋世界杯欧中非赛区",
+          "description": "史诗 | 皮肤 | 莫伊拉",
+          "product_ids": [
+            2077446
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/65/96d577ce76e5366da1a817be054cd3e3-Web_1920x1080_S22M_OWWC_EMEA_Moira.png"
+        },
+        {
+          "title": "守望先锋世界杯欧中非赛区",
+          "description": "史诗 | 皮肤 | Vendetta",
+          "product_ids": [
+            2077450
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/32/a2418f8c271744300f3abc5b66c34b21-Web_1920x1080_S22M_OWWC_EMEA_Vendetta.png"
+        },
+        {
+          "title": "守望先锋世界杯欧中非赛区",
+          "description": "史诗 | 皮肤 | 埃姆雷",
+          "product_ids": [
+            2077443
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/ff5/e92786615d1a3c2b4d0a36aa25bf5038-Web_1920x1080_S22M_OWWC_EMEA_Emre.png"
+        },
+        {
+          "title": "守望先锋世界杯欧中非赛区",
+          "description": "史诗 | 皮肤 | 安娜",
+          "product_ids": [
+            2077438
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/fdf/699d60b86b0d77df08a10d05633ccb27-Web_1920x1080_S22M_OWWC_EMEA_Ana.png"
+        },
+        {
+          "title": "守望先锋世界杯 - 亚洲支持者礼包",
+          "description": "传奇 | 礼包（9件物品）",
+          "product_ids": [
+            2077444,
+            2073360,
+            2073426,
+            2073354,
+            2075209,
+            2077441,
+            2077445,
+            2077449,
+            2077442
+          ],
+          "price_raw": 3000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 51,
+          "image_url": "https://catalog.blzstatic.cn/65/b0b35856ff196de95d0faf030e7bb0d9-Web_1920x1080_S22M_OWWC_ASIA_MegaBundle.png"
+        },
+        {
+          "title": "守望先锋世界杯亚太赛区",
+          "description": "史诗 | 皮肤 | 源氏",
+          "product_ids": [
+            2077449
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/fbd/455afa53f5d958d713a600ef13bcd4d7-Web_1920x1080_S22M_OWWC_ASIA_Genji.png"
+        },
+        {
+          "title": "守望先锋世界杯亚太赛区",
+          "description": "史诗 | 皮肤 | 生命之梭",
+          "product_ids": [
+            2077445
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/4d/7706275605b778bac2450a5c50eeec10-Web_1920x1080_S22M_OWWC_ASIA_Lifeweaver.png"
+        },
+        {
+          "title": "守望先锋世界杯亚太赛区",
+          "description": "史诗 | 皮肤 | D.Va",
+          "product_ids": [
+            2077442
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/fd5/6aa7f980f2e963b25d5a6226bbbadb6a-Web_1920x1080_S22M_OWWC_ASIA_Dva.png"
+        },
+        {
+          "title": "守望先锋世界杯亚太赛区",
+          "description": "史诗 | 皮肤 | 瑞稀",
+          "product_ids": [
+            2077444
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/4c/ae7d201faa43697b4e4b7c86c31aaa0e-Web_1920x1080_S22M_OWWC_ASIA_Mizuki.png"
+        },
+        {
+          "title": "守望先锋世界杯亚太赛区",
+          "description": "史诗 | 皮肤 | 安燃",
+          "product_ids": [
+            2077441
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/fb2/781e14e5c74585e859d21edd4f381110-Web_1920x1080_S22M_OWWC_ASIA_Anran.png"
+        }
+      ]
+    },
+    {
+      "title": "电竞商品",
+      "expires_text": "11天5小时35分",
+      "item_count": 18,
+      "items": [
+        {
+          "title": "守望先锋世界杯 - 美洲支持者礼包",
+          "description": "传奇 | 礼包（9件物品）",
+          "product_ids": [
+            2077448,
+            2077447,
+            2077440,
+            2073361,
+            2081180,
+            2077439,
+            2073411,
+            2073357,
+            2075210
+          ],
+          "price_raw": 3000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 51,
+          "image_url": "https://catalog.blzstatic.cn/fee/50f315300832633233e804a7eed4351c-Web_1920x1080_S22M_OWWC_AMER_MegaBundle.png"
+        },
+        {
+          "title": "守望先锋世界杯美洲赛区",
+          "description": "史诗 | 皮肤 | 艾什",
+          "product_ids": [
+            2077440
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/f9e/6f98db3bd065d16e9cefee516330bd31-Web_1920x1080_S22M_OWWC_AMER_Ashe.png"
+        },
+        {
+          "title": "守望先锋世界杯美洲赛区",
+          "description": "史诗 | 皮肤 | 卡西迪",
+          "product_ids": [
+            2077439
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/d/a9bcfb7fbb43458c818cb943388cb62f-Web_1920x1080_S22M_OWWC_AMER_Cassidy.png"
+        },
+        {
+          "title": "守望先锋世界杯美洲赛区",
+          "description": "史诗 | 皮肤 | 黑影",
+          "product_ids": [
+            2077448
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/17/9fa68b00500baced1adbd7b972911ae8-Web_1920x1080_S22M_OWWC_AMER_Sombra.png"
+        },
+        {
+          "title": "守望先锋世界杯美洲赛区",
+          "description": "史诗 | 皮肤 | Sierra",
+          "product_ids": [
+            2081180
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/f88/16d03dccb935354a30c2201a3c0c0fe6-Web_1920x1080_S22M_OWWC_AMER_Sierra.png"
+        },
+        {
+          "title": "守望先锋世界杯美洲赛区",
+          "description": "史诗 | 皮肤 | 士兵：76",
+          "product_ids": [
+            2077447
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/6/16ac967ce5ab5a4581d41659c09f7c94-Web_1920x1080_S22M_OWWC_AMER_76.png"
+        },
+        {
+          "title": "守望先锋世界杯 - 欧中非支持者礼包",
+          "description": "传奇 | 礼包（9件物品）",
+          "product_ids": [
+            2077451,
+            2077450,
+            2073406,
+            2075208,
+            2073348,
+            2077438,
+            2077443,
+            2077446,
+            2073386
+          ],
+          "price_raw": 3000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 51,
+          "image_url": "https://catalog.blzstatic.cn/48/9e4c529cfb6f0cbde3889f6fa1b76ed2-Web_1920x1080_S22M_OWWC_EMEA_MegaBundle.png"
+        },
+        {
+          "title": "守望先锋世界杯欧中非赛区",
+          "description": "史诗 | 皮肤 | 黑百合",
+          "product_ids": [
+            2077451
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/28/b11b784871b7e1bdb8aa19ee343c8f59-Web_1920x1080_S22M_OWWC_EMEA_Widowmaker.png"
+        },
+        {
+          "title": "守望先锋世界杯欧中非赛区",
+          "description": "史诗 | 皮肤 | 莫伊拉",
+          "product_ids": [
+            2077446
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/65/96d577ce76e5366da1a817be054cd3e3-Web_1920x1080_S22M_OWWC_EMEA_Moira.png"
+        },
+        {
+          "title": "守望先锋世界杯欧中非赛区",
+          "description": "史诗 | 皮肤 | Vendetta",
+          "product_ids": [
+            2077450
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/32/a2418f8c271744300f3abc5b66c34b21-Web_1920x1080_S22M_OWWC_EMEA_Vendetta.png"
+        },
+        {
+          "title": "守望先锋世界杯欧中非赛区",
+          "description": "史诗 | 皮肤 | 埃姆雷",
+          "product_ids": [
+            2077443
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/ff5/e92786615d1a3c2b4d0a36aa25bf5038-Web_1920x1080_S22M_OWWC_EMEA_Emre.png"
+        },
+        {
+          "title": "守望先锋世界杯欧中非赛区",
+          "description": "史诗 | 皮肤 | 安娜",
+          "product_ids": [
+            2077438
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/fdf/699d60b86b0d77df08a10d05633ccb27-Web_1920x1080_S22M_OWWC_EMEA_Ana.png"
+        },
+        {
+          "title": "守望先锋世界杯 - 亚洲支持者礼包",
+          "description": "传奇 | 礼包（9件物品）",
+          "product_ids": [
+            2077444,
+            2073360,
+            2073426,
+            2073354,
+            2075209,
+            2077441,
+            2077445,
+            2077449,
+            2077442
+          ],
+          "price_raw": 3000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 51,
+          "image_url": "https://catalog.blzstatic.cn/65/b0b35856ff196de95d0faf030e7bb0d9-Web_1920x1080_S22M_OWWC_ASIA_MegaBundle.png"
+        },
+        {
+          "title": "守望先锋世界杯亚太赛区",
+          "description": "史诗 | 皮肤 | 源氏",
+          "product_ids": [
+            2077449
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/fbd/455afa53f5d958d713a600ef13bcd4d7-Web_1920x1080_S22M_OWWC_ASIA_Genji.png"
+        },
+        {
+          "title": "守望先锋世界杯亚太赛区",
+          "description": "史诗 | 皮肤 | 生命之梭",
+          "product_ids": [
+            2077445
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/4d/7706275605b778bac2450a5c50eeec10-Web_1920x1080_S22M_OWWC_ASIA_Lifeweaver.png"
+        },
+        {
+          "title": "守望先锋世界杯亚太赛区",
+          "description": "史诗 | 皮肤 | D.Va",
+          "product_ids": [
+            2077442
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/fd5/6aa7f980f2e963b25d5a6226bbbadb6a-Web_1920x1080_S22M_OWWC_ASIA_Dva.png"
+        },
+        {
+          "title": "守望先锋世界杯亚太赛区",
+          "description": "史诗 | 皮肤 | 安燃",
+          "product_ids": [
+            2077441
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/fb2/781e14e5c74585e859d21edd4f381110-Web_1920x1080_S22M_OWWC_ASIA_Anran.png"
+        },
+        {
+          "title": "守望先锋世界杯亚太赛区",
+          "description": "史诗 | 皮肤 | 瑞稀",
+          "product_ids": [
+            2077444
+          ],
+          "price_raw": 1000,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://catalog.blzstatic.cn/4c/ae7d201faa43697b4e4b7c86c31aaa0e-Web_1920x1080_S22M_OWWC_ASIA_Mizuki.png"
+        }
+      ]
+    },
+    {
+      "title": "赛季物品",
+      "expires_text": "",
+      "item_count": 1,
+      "items": [
+        {
+          "title": "《守望先锋》战令等级直升",
+          "description": "赛季礼包",
+          "product_ids": [
+            809943,
+            809967,
+            809944,
+            809969,
+            809945,
+            809979
+          ],
+          "price_raw": 200,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://contentstack-images.blzstatic.cn/v3/assets/bltf408a0557f4e4998/blt37fe02642ce9e864/6573577153df9f764697ac6f/Grey_Background_Tier_Skip_1920x1080.png"
+        }
+      ]
+    },
+    {
+      "title": "光子水晶商店",
+      "expires_text": "",
+      "item_count": 2,
+      "items": [
+        {
+          "title": "补给",
+          "description": "补给",
+          "product_ids": [
+            1891463,
+            1891464,
+            1905999,
+            1906000,
+            1906001
+          ],
+          "price_raw": 1000,
+          "price_currency": "XVT",
+          "price_discount_percentage": 0,
+          "image_url": "https://contentstack-images.blzstatic.cn/v3/assets/bltf408a0557f4e4998/blt5cc9d76501a715ad/679bfca40f59affd574f3324/Web_1920x1080_Loot-Box.png"
+        },
+        {
+          "title": "《守望先锋》标志喷漆礼包",
+          "description": "补给",
+          "product_ids": [
+            1907513
+          ],
+          "price_raw": 500,
+          "price_currency": "XVT",
+          "price_discount_percentage": 0,
+          "image_url": "https://contentstack-images.blzstatic.cn/v3/assets/bltf408a0557f4e4998/blt6c2b2ab5a008d8a0/67ab845b06b898b4f6d3482a/Overwatch_Logo_Spray_Bundle_Web_1920x1080_CNGenericSprays.png"
+        }
+      ]
+    },
+    {
+      "title": "货币商店",
+      "expires_text": "",
+      "item_count": 3,
+      "items": [
+        {
+          "title": "《守望先锋》神话棱晶",
+          "description": "棱晶、金币和水晶",
+          "product_ids": [
+            1705559,
+            1757118,
+            1705560,
+            1705561
+          ],
+          "price_raw": 60,
+          "price_currency": "CPT",
+          "price_discount_percentage": 0,
+          "image_url": "https://contentstack-images.blzstatic.cn/v3/assets/bltf408a0557f4e4998/blt8e0007cd340202d3/6616d46e8886c1014daffb1b/OW2_2024_S10-MythicCurrency_BNET_TIER3_BNET_Shop-Products-Asset-Gallery_1920x1080.png"
+        },
+        {
+          "title": "《守望先锋》守望金币",
+          "description": "棱晶、金币和水晶",
+          "product_ids": [
+            847133,
+            847119,
+            847120,
+            847121,
+            847122
+          ],
+          "price_raw": 30,
+          "price_currency": "CPT",
+          "price_discount_percentage": 0,
+          "image_url": "https://contentstack-images.blzstatic.cn/v3/assets/bltf408a0557f4e4998/blt5387d7cefaf9923d/6334e1997e84e17596f9c816/Coins_960x540.png"
+        },
+        {
+          "title": "《守望先锋》100光子水晶礼包",
+          "description": "可解锁内容",
+          "product_ids": [
+            1905998
+          ],
+          "price_raw": 10,
+          "price_currency": "XWC",
+          "price_discount_percentage": 0,
+          "image_url": "https://contentstack-images.blzstatic.cn/v3/assets/bltf408a0557f4e4998/blt2adc39b0e4703778/67942c11bf086a0c02b3ebc4/Web_1920x1080_Hard-Light_Crystal.png"
+        }
+      ]
+    },
+    {
+      "title": "PVE商店",
+      "expires_text": "",
+      "item_count": 1,
+      "items": [
+        {
+          "title": "《守望先锋》——入侵礼包",
+          "description": "团队动作游戏",
+          "product_ids": [
+            1337309
+          ],
+          "price_raw": 90,
+          "price_currency": "CPT",
+          "price_discount_percentage": 0,
+          "image_url": "https://contentstack-images.blzstatic.cn/v3/assets/bltf408a0557f4e4998/blt93307e3b811e14a4/64d16d32da73492fca1874cf/OW2_2023_Invasion-Bundle_BNET_1P_SA01-card_feature.png"
+        }
+      ]
+    }
+  ]
+}

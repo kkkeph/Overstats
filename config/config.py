@@ -1,5 +1,23 @@
 from __future__ import annotations
 
+import json
+import os
+
+
+def _env(key: str, default: str = "") -> str:
+    """读取环境变量，不存在时返回默认值。"""
+    return os.getenv(key, default)
+
+
+def _env_json(key: str, default: str = "[]") -> list:
+    """读取 JSON 格式的环境变量（用于列表配置）。"""
+    raw = os.getenv(key, default)
+    try:
+        return json.loads(raw)
+    except (json.JSONDecodeError, TypeError):
+        return []
+
+
 # ======================= Core Service ====================== #
 API_HOST = "127.0.0.1"
 API_PORT = 18080
@@ -8,18 +26,23 @@ ENABLE_DATABASE_WRITE = True
 
 # ======================= Dashen Upstream ====================== #
 # Configure at least one account.
-DASHEN_ACCOUNTS = [
-    {
-        "name": "account-1",
-        "role_id": 123456789,
-        "token": "replace-with-your-token",
-    },
-    # {
-    #     "name": "account-2",
-    #     "role_id": 987654321,
-    #     "token": "replace-with-your-token",
-    # },
-]
+# 优先使用环境变量 OVERSTATS_DASHEN_ACCOUNTS_JSON（JSON 数组），
+# 为空时使用下面的默认值。
+DASHEN_ACCOUNTS = _env_json(
+    "OVERSTATS_DASHEN_ACCOUNTS_JSON",
+    json.dumps([
+        {
+            "name": "account-1",
+            "role_id": 223612789,
+            "token": "f3b144deaefb09c20fcff103a6394631",
+        },
+        # {
+        #     "name": "account-2",
+        #     "role_id": 987654321,
+        #     "token": "replace-with-your-token",
+        # },
+    ]),
+)
 
 DASHEN_DTS = 2026
 DASHEN_SERVER = 1
@@ -48,7 +71,7 @@ DASHEN_NETEASE_PROXIES = [
 
 # OW esports PandaScore API key.
 #如何获取ow赛事的apikey:访问https://app.pandascore.co/dashboard/main，注册并生成api key，每小时1000次免费调用
-OW_ESPORTS_API_KEY = ""
+OW_ESPORTS_API_KEY = _env("OVERSTATS_OW_ESPORTS_API_KEY", "")
 
 # Optional external OW guess asset pack root.
 # 仅存放本地图片/音频等大资源，默认放在 Overstats 项目目录外的相邻文件夹。
@@ -64,15 +87,15 @@ OW_HERO_LEADERBOARD_CN_SEASON = 2
 # - https://api.deepseek.com/v1
 # - https://generativelanguage.googleapis.com/v1beta/openai
 # You can also provide the full /chat/completions endpoint directly.
-ANALYSIS_BASE_URL = ""
-ANALYSIS_API_KEY = "replace-with-your-analysis-api-key"
+ANALYSIS_BASE_URL = _env("OVERSTATS_ANALYSIS_BASE_URL", "https://api.moonshot.cn/v1/chat/completions")
+ANALYSIS_API_KEY = _env("OVERSTATS_ANALYSIS_API_KEY", "sk-Cij9yfBISs1C75EdK8ftyPKbzAjpTMEaTg8KjETsy3M3Z3Mc")
 # Optional proxy for OpenAI official and Google OpenAI-compatible endpoints.
 ANALYSIS_PROXY = ""
 
 # ANALYSIS_GOOGLE_MODEL = "gemini-3.1-flash-lite-preview"
 #ANALYSIS_DEEPSEEK_MODEL = "deepseek-chat"
 #除谷歌和deepseek以外的模型使用下面配置
-ANALYSIS_OPENAI_MODEL = ""
+ANALYSIS_OPENAI_MODEL = "kimi-k2.6"
 
 
 # Optional external patch-note fetch proxy.
